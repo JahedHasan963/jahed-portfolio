@@ -30,3 +30,16 @@ section{
     background-image: url(images/corner\ image.png);
     background-repeat: no-repeat;
 }
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+        border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+.dream-big{
+    background-image: url(images/corner\ image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
