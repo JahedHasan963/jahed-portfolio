@@ -8,7 +8,7 @@ h1{
 h1 span{
     color: orange;
 }
-section{
+.fexible-container{
     display: flex;
 }
 .half-width{
@@ -42,4 +42,37 @@ section{
     background-image: url(images/corner\ image.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.orange-clr{
+    color: orange;
+}
+.experience-item{
+    background-image: url(images/corner\ image.png);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+}
+h2{
+    font: 40px;
+}
+#web-dev-exp{
+    border-left: solid 7px;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+}
+#web-dev-exp2{
+    border-left: solid 7px;
+    border-image: linear-gradient(purple, tomato) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
